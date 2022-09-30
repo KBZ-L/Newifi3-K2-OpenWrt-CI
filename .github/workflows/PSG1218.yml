@@ -76,8 +76,8 @@ jobs:
           # CONFIG_PACKAGE_ca-certificates=n
           CONFIG_PACKAGE_curl=n
           CONFIG_PACKAGE_ddns-scripts=n
-          CONFIG_PACKAGE_ddns-scripts_aliyun=n
-          CONFIG_PACKAGE_ddns-scripts_dnspod=n
+          CONFIG_PACKAGE_ddns-scripts_aliyun=y
+          CONFIG_PACKAGE_ddns-scripts_dnspod=y
           # 114.5 kB
           CONFIG_PACKAGE_dropbear=n
           # CONFIG_PACKAGE_logd=n
@@ -87,12 +87,12 @@ jobs:
           # CONFIG_PACKAGE_luci-app-accesscontrol=n
           # CONFIG_PACKAGE_luci-app-autoreboot=n
           # CONFIG_PACKAGE_luci-app-arpbind=n
-          CONFIG_PACKAGE_luci-app-ddns=n
+          CONFIG_PACKAGE_luci-app-ddns=y
           CONFIG_PACKAGE_luci-app-filetransfer=n
           CONFIG_PACKAGE_luci-app-nlbwmon=n
-          CONFIG_PACKAGE_luci-app-vsftpd=n
-          CONFIG_PACKAGE_luci-app-vlmcsd=n
-          CONFIG_PACKAGE_luci-app-wol=n
+          CONFIG_PACKAGE_luci-app-vsftpd=y
+          CONFIG_PACKAGE_luci-app-vlmcsd=y
+          CONFIG_PACKAGE_luci-app-wol=y
 
           CONFIG_PACKAGE_luci-app-turboacc=y
           CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM=y
